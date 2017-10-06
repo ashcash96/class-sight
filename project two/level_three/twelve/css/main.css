@@ -1,0 +1,43 @@
+body {
+    width:1000px;
+}
+
+.title{
+    position: relative;
+    transform: rotate(90deg);
+    left: -70px;
+    top: 80px;
+    width:200px;
+    height: 40px;
+    border-bottom-style: dotted;
+}
+
+.one{
+    position:relative;
+    top:200px;
+    width:350px;
+    left:150px;
+    border-left-style: dotted;
+     padding-left: 10px;
+    
+}
+
+.two{
+    position:relative;
+    top:250px;
+    width:350px;
+    left:225px;
+    border-left-style: dotted;
+     padding-left: 10px;
+    
+}
+
+.three{
+    position:relative;
+    top:290px;
+    width: 350px;
+    left: 370px;
+    border-left-style: dotted;
+    padding-left: 10px;
+    
+}

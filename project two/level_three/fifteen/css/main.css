@@ -1,0 +1,42 @@
+body {height:2000px;
+
+}
+.title{
+    position: relative;
+    top: 80px;
+    width:200px;
+    height: 40px;
+    border-bottom-style:ridge;
+    border-bottom-width: 6px;
+    
+}
+
+.one{
+    position:relative;
+    top:200px;
+    width:350px;
+    left:250px;
+    border-style: dotted;
+     padding-left: 10px;
+    
+}
+
+.two{
+    position:relative;
+    top:650px;
+    width:350px;
+    left:250px;
+   border-style: dotted;
+     padding-left: 10px;
+    
+}
+
+.three{
+    position:relative;
+    top:1050px;
+    width: 350px;
+    left: 250px;
+    border-style: dotted;
+    padding-left: 10px;
+    
+}

@@ -1,0 +1,22 @@
+body {
+}
+
+.title{
+    position:static;
+    width:200px;
+    height:50px;
+}
+
+.one  {
+        position:fixed;
+        height:650px;
+        width:400px;
+        left:300px;
+        top:-70px;
+        transform: rotate(90deg);
+        border-bottom-style: double;
+    border-bottom-width:90px;}   
+    
+        
+    
+}

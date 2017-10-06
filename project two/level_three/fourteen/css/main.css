@@ -1,0 +1,51 @@
+body {width:1000px;
+    height:2300px}
+
+.title{
+    position: relative;
+    width: 370px;
+    height:100px;
+    border-style: groove;
+    border-width: 11px; 
+    top:475px;
+    left:407px;
+    
+}
+
+.one{
+    position: fixed;
+    width: 220px;
+    height:220px;
+    border-style: solid;
+    border-width:5px;
+    padding:5px;
+    top:5px;
+    left:160px;
+    
+}
+
+.two{
+    position: fixed;
+    width: 230px;
+    height:230px;
+    left:810px;
+    border-width:3px;
+    border-style: solid;
+    padding:5px;
+    
+    
+}
+
+.three{
+    position: fixed;
+    width: 160px;
+    height:160px;
+    left:407px;
+    top:375px;
+    border-width:1px;
+    border-style: solid;
+    padding:5px;
+    
+    
+}
+
