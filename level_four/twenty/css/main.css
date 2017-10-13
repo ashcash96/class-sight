@@ -1,19 +1,43 @@
-body {
-   
-}
 
 .title{
+    position: relative;
+    width: 370px;
+    height:100px; 
+    font-family:Arial;
+    text-align: right;
+    padding-left:465px;
+    
 }
 
 .one{
-    
+    position: fixed;
+    width: 220px;
+    height:400px;
+    padding:5px;
+    left:160px;
+    font-family:georgia;
+    text-align:justify;
 }
 
 .two{
-    
+    position: fixed;
+    width: 230px;
+    height:400px;
+    left:410px;
+    padding:5px;
+    font-family:georgia;
+    text-align:justify;
     
 }
 
 .three{
-   
+    position: fixed;
+    width: 160px;
+    height:400px;
+    left:680px;
+    padding:5px;
+    font-family:georgia;
+    text-align:justify;
+    
 }
+

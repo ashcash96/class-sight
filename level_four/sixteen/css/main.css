@@ -1,19 +1,41 @@
-body {
-   
+
+.title{ font-family:Georgia;
+       letter-spacing:12px;
+        font-size:25px;
+        width:635px;
+        margin-left:25%;
 }
 
-.title{
-}
+.one{font-family:Georgia;
+       letter-spacing:-1px;
+        font-size:16px;
+        text-align: right;
+        width: 635px;
+        margin-left: 25%;
+        
 
-.one{
-    
 }
 
 .two{
-    
+    text-align: right;
+    font-family: garamond;
+    width: 635px;
+    margin-left: 25%;
+    letter-spacing: -2px;
+    line-height: 10px;
+    border-left-style: dashed;
+    border-left-width: 12px;
     
 }
 
 .three{
-   
+    text-align: right;
+    font-family: garamond;
+   width: 635px;
+     margin-left: 25%;
+    letter-spacing: -2px;
+    line-height: 10px;
+    border-left-style: dashed;
+    border-left-width: 12px;
+    
 }

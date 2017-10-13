@@ -1,19 +1,37 @@
-body {
-   
-}
-
-.title{
+.title{ font-family:Courier;
+        font-size:15px;
+        width:635px;
+        line-height:10px;
+        text-align: right;
+        position: fixed;
+        margin-left:325px;
+        top:108px; 
 }
 
 .one{
-    
+    text-align: right;
+    font-family:times;
+    width: 710px;
+    letter-spacing:1px;
+    line-height: 40px;
+    font-size:40px;
 }
 
+
 .two{
-    
-    
+         text-align: right;
+    font-family:times;
+    width: 710px;
+    letter-spacing:1px;
+    line-height: 40px;
+    font-size:40px;
 }
 
 .three{
-   
+     text-align: right;
+    font-family:times;
+    width: 710px;
+    letter-spacing:1px;
+    line-height: 40px;
+    font-size:40px;
 }

@@ -1,0 +1,14 @@
+#object {
+position:relative;
+width:600px;
+height:200px;
+background-color:coral;
+}
+
+#hello{
+position:absolute;
+bottom:200;
+width:600px;
+height:200px;
+background-color:red;
+}

@@ -1,19 +1,41 @@
-body {
-   
-}
-
-.title{
+.title{ font-family:impact;
+        font-size:25px;
+        width:635px;
+        margin-left:13px;
+        line-height:20px;
+        text-align: right;
+        
 }
 
 .one{
+    text-align: right;
+    font-family:verdana;
+    width: 635px;
+    letter-spacing:1px;
+    line-height: 15px;
+    border-left-style: dashed;
+    border-left-width: 12px;
     
 }
 
+
 .two{
-    
+    text-align: right;
+    font-family:verdana;
+    width: 635px;
+    letter-spacing:1px;
+    line-height: 15px;
+    border-left-style: dashed;
+    border-left-width: 12px;
+    transform: rotate(180deg)
     
 }
 
 .three{
-   
-}
+ text-align: right;
+    font-family:verdana;
+    width: 635px;
+    letter-spacing:1px;
+    line-height: 15px;
+    border-left-style: dashed;
+    border-left-width: 12px;}
