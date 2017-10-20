@@ -1,9 +1,5 @@
 $(document).ready(function(){
- $("#object").click(function(){
-    $("#object").animate({top:"200px"});
+ $("#title").click(function(){
+    $("#title").fadeIn(1500);
  });
  });   
-
-
-//.append is pretty cool to use//
-//within the $() you can multiple//

@@ -1,14 +1,31 @@
-#object {
+.one {
 position:relative;
 width:600px;
-height:200px;
-background-color:coral;
+font-family: cursive;
+text-decoration: line-through;
+text-decoration-style: dashed;
+text-decoration-color:palevioletred;
 }
 
-#hello{
+.two {
+position:absolute;
+width:600px;
+margin-left: 300px;
+font-family: cursive;
+text-decoration: line-through;
+text-decoration-style: dashed;
+text-decoration-color:palevioletred;
+}
+
+.three {
 position:absolute;
 bottom:200;
 width:600px;
-height:200px;
-background-color:red;
+margin-left:700px;
+top:650px;
+padding-bottom: 10px;
+font-family: cursive;
+text-decoration: line-through;
+text-decoration-style: dashed;
+text-decoration-color:palevioletred;
 }

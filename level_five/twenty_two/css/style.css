@@ -1,19 +1,17 @@
-body {
-    width:1000px;
-}
+body {height:3000px;}
+
 
 .title{
-    position: relative;
-    transform: rotate(90deg);
-    left: -70px;
+    position: absolute;
+    left:150px;
     top: 80px;
     width:200px;
     height: 40px;
 }
 
 .one{
-    position:relative;
-    top:200px;
+    top: 250px;
+    position:absolute;
     width:350px;
     left:150px;
     padding-left: 10px;
@@ -21,19 +19,50 @@ body {
 }
 
 .two{
-    position:relative;
-    top:250px;
+    position:absolute;
+    top: 550px;
     width:350px;
-    left:225px;
+    left:150px;
     padding-left: 10px;
     
 }
 
 .three{
-    position:relative;
-    top:290px;
+    position:absolute;
+    top:850px;
     width: 350px;
-    left: 370px;
+    left: 150px;
     padding-left: 10px;
+
     
+}
+
+.red1
+{   position: absolute;
+    top:240px;
+    height:250px;
+    width:350px;
+    left:150px;
+    padding-left: 10px;
+     background-color:pink;}
+
+.red2
+{   position:absolute;
+    top:540px;
+    height: 270px;
+    width:350px;
+    left:150px;
+    padding-left: 10px;
+    background-color: hotpink;
+    
+}
+
+.red3{
+        position:absolute;
+    top:840px;
+    height: 140px;
+    width: 350px;
+    left: 150px;
+    padding-left: 10px;
+     background-color: deeppink;
 }

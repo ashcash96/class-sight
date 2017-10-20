@@ -1,14 +1,49 @@
-#object {
-position:relative;
-width:600px;
-height:200px;
-background-color:coral;
+html{background-color: crimson}
+
+.title{position: absolute;
+    top:300px;
+left:400px;
+font-family: impact;
+letter-spacing: 5px;
+color: blue;
+font-size:20px;
+border-bottom-style: double;
+border-bottom-width: 10px;}
+
+
+.one{
+position:absolute;
+width:400px;
+height:300px;
+color: aliceblue;
+text-align: center;
+padding-top:10px;
+transform: rotate(90deg);
+left:700px;
+top:200px;
+
 }
 
-#hello{
+.two{
 position:absolute;
-bottom:200;
-width:600px;
-height:200px;
-background-color:red;
+width:400px;
+height:300px;
+color: aliceblue;
+text-align: center;
+padding-top:10px;
+transform: rotate(180deg);
+left: 400px;
+top:400px;
+}
+
+.three{
+position:absolute;
+width:400px;
+height:300px;
+color: aliceblue;
+text-align: center;
+padding-top:10px;
+transform: rotate(270deg);
+left: 100px;
+top:200px;
 }
