@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Sentence Generator</title>
+	<style>
+
+		body {
+			margin: 90px;
+			font-size: 50px;
+    
+		}
+
+		.button-container {
+			position: absolute;
+			top: 200px;
+			left: 90px;
+		}
+        
+        button {
+			background-color:black;
+            color: white;
+            border-color:red;
+            font-size: 20px;
+		}
+
+		.list-one {
+			color: black;
+		}
+
+		.list-two {
+			color: black;
+		}
+        
+        .list-three {
+			color: black;
+		}
+
+	</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			
+			var one = [
+				"Adam",
+				"Sean",
+				"Emily",
+				"Will",
+				"Jessy",
+				"Sarah",
+			];
+
+			
+			var two = [
+				"room",
+				"office",
+				"kitchen",
+				"house",
+				"bathroom",
+			];
+            
+           
+			var three = [
+				"cook",
+				"code",
+				"clean",
+				"sing",
+                "swim",
+			];
+
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+</head>
+
+<body>
+
+	<div class="button-container">
+		<button>Hello</button>
+	</div>
+	Hello! My name is <span class="list-one"></span> and welcome to my <span class="list-two"></span> where I'll show you how to <span class="list-three"></span>.
+
+</body>
+
+</html>

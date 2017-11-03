@@ -44,7 +44,8 @@ body {height:3000px;}
     width:350px;
     left:150px;
     padding-left: 10px;
-     background-color:pink;}
+     background-color:pink;
+    display: none;}
 
 .red2
 {   position:absolute;
@@ -54,6 +55,7 @@ body {height:3000px;}
     left:150px;
     padding-left: 10px;
     background-color: hotpink;
+    display:none;
     
 }
 
@@ -65,4 +67,5 @@ body {height:3000px;}
     left: 150px;
     padding-left: 10px;
      background-color: deeppink;
+    display:none;
 }

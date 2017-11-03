@@ -5,6 +5,7 @@ font-family: cursive;
 text-decoration: line-through;
 text-decoration-style: dashed;
 text-decoration-color:palevioletred;
+    display: none;
 }
 
 .two {
@@ -15,6 +16,7 @@ font-family: cursive;
 text-decoration: line-through;
 text-decoration-style: dashed;
 text-decoration-color:palevioletred;
+    display: none;
 }
 
 .three {
@@ -28,4 +30,5 @@ font-family: cursive;
 text-decoration: line-through;
 text-decoration-style: dashed;
 text-decoration-color:palevioletred;
+    display: none;
 }
