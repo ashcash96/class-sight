@@ -2,25 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="event.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+          <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">  
     <title>1984</title>
   </head>
-  <body>
-<video id="camera-stream" autoplay></video>
+    
+          <script type="text/javascript">
 
-<script>
+function ShowTimes() {
+  var now = new Date();
+  var hrs = 14-now.getHours();
+  var mins = 59-now.getMinutes();
+  var secs = 59-now.getSeconds();
+  var str = '';
+      
+      str += 'in ' +hrs+' hours, '+mins+' minutes, & ' +secs+' seconds';
+  document.getElementById('countdownToMidnight').innerHTML = str;
+}
+
+
+            </script>
+<body  onload="_cntDown=setInterval('ShowTimes()',1000)">
+    
+        <video width="320" height="240"></video>
+    
+    
+        <script>
 window.alert("Big Brother is ALWAYS watching");
-</script>
-      <div class=title>Hello<br> __________. <br>(user's ip address)</div>
-      <div class=info>You've been requested to a reading of the book<br>
+        </script>
+    
+            <script>
+window.alert("WAR IS PEACE FREEDOM IS SLAVERY IGNORANCE IS STRENGTH");
+        </script>
+                
+        <script type="text/javascript">
+  var userip;
+        </script>
+
+        <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+                <div class="ip"><script type="text/javascript">
+  document.write("<h1>Hello</h1>", userip);
+        </script>
+                </div>
+    
+                <div class="greetings">You've been requested to a reading of the book<br>
       "1984" by George Orwell.<br>
       This is not an invitation, your presence is mandatory.<br>
           Failure to cooperate will be seen with punishment.</div>
-      <div class=info2>"The party told you to reject the evidence of your eyes and ears. It was their final, most essential command. His heart sank as he thought of the enormous power arrayed against him, the ease with which any Party intellectual would overthrow him in debate, the subtle arguments which he would not be able to understand, much less answer. And yet he was in the right! They were wrong and he was right. "</div>
-      <div class=info3>When: in _____ : ______ hrs<br>
-      Where:(gps location)
-      </div>
-  </body>
-  </html>
+    
+                <div class="book">"The book fascinated him, or more exactly it reassured him. In a sense it told him nothing that was new, but that was part of the attraction. It said what he would have said, if it had been possible for him to set his scattered thoughts in order. It was the product of a mind similar to his own, but enormously more powerful, more systematic, less fear-ridden. The best books, he perceived, are those that tell you what you know already. "</div>
+    
+                <div class="date">When: <div id="countdownToMidnight"></div>
+                </div>
+                
+                <div class="where"> Where:</div>
+                <div id="address"></div>
+      
+</body>
+</html>
