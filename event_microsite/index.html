@@ -58,8 +58,28 @@ window.alert("WAR IS PEACE FREEDOM IS SLAVERY IGNORANCE IS STRENGTH");
                 <div class="date">When: <div id="countdownToMidnight"></div>
                 </div>
                 
-                <div class="where"> Where:</div>
-                <div id="address"></div>
+                <div class="where"> Where:<p onclick="getLocation()">Click for location</p>
+
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script></div>
+                <div class="address"></div>
       
 </body>
 </html>
