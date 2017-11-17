@@ -1,3 +1,6 @@
+html{width: 100%;
+    height:100%}
+
 *{padding:0;
 margin: 0;}
 
@@ -24,9 +27,9 @@ video
 
  @media screen and (max-width: 600px) {
                                     
-                               .page{
-	                                  font-size:2em;
-                                      color: white;
-                                      }
+ .page{
+	   font-size:2em;
+    color: white;
+        }
 	
-                                                                      }
+        }
