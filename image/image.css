@@ -1,0 +1,107 @@
+html
+{background-color:white}
+
+#box{width:900px;
+    height:900px;
+    background-color: black;
+    margin: auto;}
+p
+{margin: auto;
+width:900px;
+}
+
+#lineup{
+    position:relative;
+    width:150px;
+    height:8px;
+    background-color:lightblue;
+    transform:rotate(30deg);
+    top:100px;
+    left:200px; 
+}
+
+#linedown{
+    position:relative;
+    width:130px;
+    height:8px;
+    background-color: white;
+    transform:rotate(-60deg);
+    top:74px;
+    left:302px; 
+}
+
+#one{
+    position: relative;
+    top:200px;
+}
+
+#lineup1{
+    position:relative;
+    width:200px;
+    height:8px;
+    background-color:lightblue;
+    transform:rotate(30deg);
+    top:100px;
+    left:200px; 
+}
+
+#linedown1{
+    position:relative;
+    width:180px;
+    height:8px;
+    background-color: white;
+    transform:rotate(-60deg);
+    top:68px;
+    left:342px; 
+}
+
+
+#two{
+    position: relative;
+    top:400px;}
+
+#lineup2{
+    position:relative;
+    width:250px;
+    height:8px;
+    background-color:lightblue;
+    transform:rotate(30deg);
+    top:100px;
+    left:200px; 
+}
+
+#linedown2{
+    position:relative;
+    width:230px;
+    height:8px;
+    background-color: white;
+    transform:rotate(-60deg);
+    top:57px;
+    left:370px; 
+}
+
+
+#three{
+    position: relative;
+    top:600px;}
+
+#lineup3{
+    position:relative;
+    width:300px;
+    height:8px;
+    background-color:lightblue;
+    transform:rotate(30deg);
+    top:100px;
+    left:200px; 
+}
+
+#linedown3{
+    position:relative;
+    width:280px;
+    height:8px;
+    background-color: white;
+    transform:rotate(-60deg);
+    top:48px;
+    left:403px; 
+}
+

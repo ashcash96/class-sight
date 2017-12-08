@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#windowsxp" ).draggable();
+  } );
+
+  $( function() {
+    $( "instaweb" ).draggable();
+  } );
+  </script>
+        
+    </head>
+    <body> 
+<div id="windowsxp">
+   <div id="errordialog" class="dialog">
+      <h3>WARNING!</h3>
+      <img src="images/warn.jpg" />
+     <div class="exit" >
+         <div onclick="myFunction()" ><img src="images/exit.JPG" /></div>
+      <p> You have opened a website displaying various projects and exercises completed by student Ashley Luciano for the course Interactive Design. By loading this page you have accepted to view these images and potientally various other links. Enjoy. </p></div> 
+   </div>
+</div>
+        
+<div class="folder"><img src="images/folder.png" ><p>Projects</p>
+    
+</div>
+<div class="folder1"><img src="images/folder.png" ><p>Exercises</p>
+
+</div>    
+        <div class="ie"><div onclick="myFunction()" ><img src="images/IE.png" ><p>Instagram</p></div>
+    
+</div>
+        
+        
+<div class="instaweb">
+    <img src="images/web.png"><iframe  src="https://www.instagram.com/ashleyluciano5063/" height="310" width="587" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+      
+<script>
+function myFunction() {
+    document.getElementById("windowsxp").style.display = "none";
+}
+
+function myFunction() {
+    document.getElementById("instaweb").style.display = "block";
+}
+</script>
+
+    </body>
+</html>
