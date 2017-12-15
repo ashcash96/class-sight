@@ -1,32 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Class Menu</title>
-  </head>
-  <body>
-  <p>Class assignments</p>
-      <ol>
-      <li><a href="https://www.instagram.com/ashleyluciano5063/">Image journal</a></li>
-      <li><a href="https://www.quora.com/profile/Sancho-Panza-16">Republish a Text</a></li>
-      <li><a href="25_variations/index.html">25 Variations</a></li>
-      <li><a href="event_microsite/indextwo.html">Event Microsite</a></li>
-      <li><a href="catalog/index.html">Catalog</a></li>
+<html>
+    <head>
+        <meta charset="utf-8">
+                <link rel="stylesheet" href="main.css">
+           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>  
+        
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+        
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       
-      </ol>
-<p>Class exercises</p>
-      <ol>
-      <li><a href="style_carl_dair/index.html">Style Carl Dair</a></li>
-      <li><a href="malevich/index.html">Malevich's Boxes</a></li>
-      <li><a href="jquery/index.html">Jquery</a></li>
-      <li><a href="">Hover States</a></li>
-      <li><a href="responsive_page/index.html">Responsive Page</a></li>
-      <li><a href="sentence_generator/index.html">Sentence Generator 1</a></li>
-      <li><a href="sentence_generator/index2.html">Sentence Generator 2</a></li>
-      <li><a href="abstract_grid/">Abstract Grid</a></li>
-      <li><a href="image/idex.html">Image Inspiration</a></li>
-      </ol>
-      
+     <script>
+  $( function() {
+    $( ".instaweb, .ie, .ie1, .ie2, .ie3, .ie4, .ie5, .ie6, .ie7, .ie8, .ie9, .ie10, .ie11, .ie12, .ab, .abc" ).draggable();
+  } );
+     </script>
+        
+    </head>
 
-  </body>
-  </html>
+             
+<div class="instaweb" id="gone" ><div class="leave"></div><img src="images/web.png"><iframe src="https://www.powr.io/plugins/instagram-feed/view?unique_label=4fc98134_1513274714&external_type=iframe" frameborder="0"></iframe>
+    <div onclick="myFunction()" ><div class="leave"></div></div>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("gone").style.display = "none";
+}
+    
+</script>        
+    
+   
+    <div class="ie"><img src="images/IE.png" ><p class="load">Image Journal</p>
+        </div>
+        
+    <div class="ab"><img src="images/word.png" ><a href="project-1-set.pdf" target="_blank"><p>Do What?</p></a> <div>
+        <p>In groups of 2 you will write a program using the English language which produces a composition via a set of instructions. Your instructions should be simple enough that they could be executed by any of your classmates within the context of the classroom without. </p>
+      </div>
+        </div>
+    
+    <div class="abc"><img src="images/IE.png" ><a href="donq/index.html" target="_blank"><p>Republish a Text</p></a> <div>
+        <p>Experiment with publishing or processing a text online without typing a single line of code.</p>
+      </div>
+        </div>
+    
+    <div class="ie1"><img src="images/IE.png" ><a href="25_variations/index.html" target="_blank"><p>25 Variations</p></a> <div>
+        <p>Choose a poem and make 25 variations on that same text.</p>
+      </div>
+        </div>
+    <div class="ie2"><img src="images/IE.png" ><a href="event_microsite/indextwo.html" target="_blank"><p>Event Microsite</p></a> <div>
+        <p>Choose an event. Come up with the “who, what when, where” and then create a save-the-date website providing information about your event. 
+</p>
+      </div>
+    </div>
+    <div class="ie3"><img src="images/word.png" ><a href="supreme.docx" target="_blank"><p>Website Analysis</p></a> <div>
+        <p>Choose 3 websites and dissect them. Analyze them.</p>
+      </div>
+        </div>
+    <div class="ie4"><img src="images/IE.png" ><a href="style_carl_dair/index.html" target="_blank"><p>Style Carl Dair</p></a> <div>
+        <p>Style each section of the text addressing the visual strategies that Carl Dair discusses. </p>
+      </div>
+        </div>
+    <div class="ie5"><img src="images/IE.png" ><a href="malevich/index.html" target="_blank"><p>Malevich's boxes</p></a> <div>
+        <p>Create 4 compositions of any sized square/s.</p>
+      </div>
+        </div>
+    <div class="ie6"><img src="images/IE.png" ><a href="jquery/index.html" target="_blank"><p>JQuery</p></a> <div>
+        <p>Use jQuery to create hover and click events that change the CSS on one or more elements on the page. 
+</p>
+      </div>
+        </div>
+       <div class="ie7"><img src="images/IE.png" ><a href="hover/index.html" target="_blank"><p>Hover States</p></a> <div>
+        <p>Investigate the desktop interface, specifically through its unique interaction of the hover state. Hover states are considered a ‘pseudo state’, something explicitly thought of as in-between. </p>
+      </div>
+        </div>
+    <div class="ie8"><img src="images/IE.png" ><a href="responsive_page/index.html" target="_blank"><p>Responsive Page</p></a> <div>
+        <p>Create a website that changes its form and/or content at the following breakpoints.</p>
+      </div>
+        </div>
+    <div class="ie9"><img src="images/IE.png" ><a href="sentence_generator/index.html" target="_blank"><p>Sentence Generator</p></a><div>
+        <p>Create a randomly generated fortune containing three variables, that makes grammatical sense.</p>
+      </div>
+        </div>
+    <div class="ie10"><img src="images/IE.png" ><a href="sentence_generator/index2.html" target="_blank"><p>Sentence Generator</p></a> <div>
+        <p>Create 5 different versions of the sentence with different variables </p>
+      </div>
+        </div>
+      <div class="ie11"><img src="images/IE.png" ><a href="" target="_blank"><p>Abstract Grid</p></a><div>
+        <p>Create an abstract grid, using multiple colors to distinguish between divs; nest as many divs in divs as you desire.</p>
+      </div>
+        </div>
+    <div class="ie12"><img src="images/IE.png" ><a href="image/idex.html" target="_blank"><p>Image Inspiration</p></a> <div>
+        <p>Choose one image from your image journal. Create a composition with code based on that image.</p>
+      </div>
+        </div>
+
+</html>

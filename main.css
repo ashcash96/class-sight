@@ -1,0 +1,785 @@
+html{background-color:silver}
+
+.ie{width: 90px;
+        height: 90px;
+        position: absolute;
+        left:1000px;
+        top:10px;
+        z-index:-1}
+
+.ie img{width:50% }
+
+.ie p {position:relative; top:-200px;
+            font-size:13px;
+            font-family: sans-serif;
+            color: aliceblue;
+            letter-spacing:1px; }
+
+iframe{position: relative;
+        width:889px;
+        height:500px;
+        left:5px;
+        top:-510px;
+        }
+
+.instaweb{ 
+    position:absolute;
+    top:-10px;
+    width:900px;
+    height:643px;
+    display:none;
+    z-index:2;}
+
+.instaweb img{width:900px;
+    height:643px}
+
+.leave{ position: relative;
+        background-color:;
+        width:30px;
+        height:30px; 
+        z-index:1;
+        top:-1150px;
+        right:-870px;
+                }
+
+
+.ie1     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:10px; 
+        left:5px;
+        z-index:-1}
+.ie2     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:100px; 
+        left: 5px;
+        z-index:-1}
+
+.ie3     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:200px; 
+        left: 5px;
+        z-index:-1}
+
+.ie4     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:300px; 
+        left: 5px;
+        z-index:-1}
+
+.ie5     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:400px; 
+        left: 5px;
+        z-index:-1}
+
+.ie6     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:10px; 
+        left:120px;
+        z-index:-1}
+
+.ie7     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:100px; 
+        left:120px;
+        z-index:-1}
+
+.ie8     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:200px; 
+        left:120px;
+        z-index:-1}
+
+.ie9     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:300px; 
+        left:120px;
+        z-index:-1}
+
+.ie10     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:10px; 
+        left:240px;
+        z-index:-1}
+.ie11     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:100px; 
+        left:240px;
+        z-index:-1}
+.ie12     {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top:200px; 
+        left:240px;
+        z-index:-1;
+        }
+
+.ab     {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        left:1000px;
+        top:100px;
+        z-index:-1
+        }
+
+.abc     {
+       width: 90px;
+        height: 90px;
+        position: absolute;
+        left:1000px;
+        top:200px;
+        z-index:-1
+        }
+
+
+.ie img, .ie1 img, .ie2 img, .ie3 img, .ie4 img, .ie5 img, .ie6 img, .ie7 img, .ie8 img, .ie9 img, .ie10 img, .ie11 img, .ie12 img, .ab img, .abc img {width:50% }
+
+.ie p, .ie1 p, .ie2 p, .ie3 p, .ie4 p, .ie5 p, .ie6 p, .ie7 p, .ie8 p, .ie9 p, .ie10 p, .ie11 p, .ie12 p, .ab p, .abc p {position:relative; top:-20px;
+            font-size:13px;
+            font-family: sans-serif;
+            letter-spacing:1px; } 
+
+.ab div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ab a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ab div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+
+.abc div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.abc a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.abc div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+
+.ie1 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie1 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie1 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie2 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie2 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie2 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie3 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie3 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie3 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie4 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie4 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie4 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie5 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie5 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie5 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie6 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie6 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie6 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie7 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie7 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie7 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie8 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie8 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie8 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie9 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie9 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie9 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie10 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie10 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie10 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+.ie11 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie11 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie11 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
+
+
+
+
+.ie12 div {
+  /*visiblity: hidden; */
+  display: none;
+  position: absolute;
+  top: 0;
+  left:100%;
+  margin-top: -30px; /* approx adjustment for arrow */
+  margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.ie12 a:hover + div {
+  cursor: pointer;
+  display: block;
+  /*visibility: visible; */
+  width: 180px;
+  line-height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 999;
+  background-color:white;
+  border: 4px solid;
+  border-color:white;
+  border-radius: px;
+  box-shadow: #333 -4px 4px 16px 2px;
+  -webkit-transition: opacity 100ms ease-in;
+  -o-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+}
+
+.ie12 div:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
+  top: 22px;
+  left: -23px;
+}
